@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="shortcut icon" href="./ressources/icons8-cycling-50(1).png" type="image/x-icon">
+    <title>AM | Cycling Coaching</title>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+            </label>
+            <label class="logo">AMCC</label>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#plans">Training Plans</a></li>
+                <li><a href="#team">The Team</a></li>
+                <li><a href="#contact" class="active">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div id="home">
+            <div class="profil">
+                <img src="" alt="">
+                <h1>AM Cycling Coaching</h1>
+            </div>
+        </div>
+
+        <div id="plans">
+            <div class="amateur">
+                <h2>Amateur</h2>
+                <p>This is our entry level plan, you will have every get in shape for an upcoming event or just to be able to keep up with your friends on a sunday ride. What you will find in this plan :</p>
+                <ul>
+                    <li>Personalized training and update every two weeks</li>
+                    <li>Data analisys every two weeks to adjust the plan and get some feedback from you coach</li>
+                    <li>Unlimited contact via WhatsApp for further question</li>
+                    <li></li>
+                </ul>
+
+            </div>
+            <div class="pamateur">
+                <img src="" alt="">
+            </div>
+            <div class="racer">
+                <h2>Racer</h2>
+                <p>In this second plan, we will focus a little bit more on the performance and how to make the difference with more help and structure in the plan :</p>
+                <ul>
+                    <li>Personalized training and update every week</li>
+                    <li>Data analisys every week to adjust the plan and get some feedback from you coach</li>
+                    <li>Unlimited contact via WhatsApp for further question</li>
+                    <li></li>
+                </ul>
+
+            </div>
+            <div class="pracer">
+                <img src="" alt="">
+            </div>
+            <div class="professional">
+                <h2>Professional</h2>
+                <p>This is the high level plan, with this one, the athlete will feel like a pro, the team will work for him and will follow up with his sensations and numbers on a daily basis :</p>
+                <ul>
+                    <li>Personalized training and update every day</li>
+                    <li>Data analisys on a daily basis to adjust the plan and get some feedback from you coach</li>
+                    <li>Unlimited contact via WhatsApp for further question</li>
+                </ul>
+
+            </div>
+            <div class="ppro">
+                <img src="./ressources/" alt="">
+            </div>
+        </div>
+
+        <div id="team">
+            <h1>Who are we?</h1>
+            <div class="felipe">
+                <h2>Felipe Arias</h2>
+                <img src="" alt="">
+                <p>He spent his childhood on a bike, following his father pedals strokes. He raced at a high level in Australia in U21 and battle with the best ones in sprints. For the last ten years, he is living away from racing but he is still advising and training some riders.</p>
+            </div>
+            <div class="sacha">
+                <h2>Sacha Mutel</h2>
+                <img src="" alt="">
+                <p>On the opposite of Felipe, Sacha spent his chilhood watching the best ones racing in the Tour de France or other big races in Europe. He start his sportive life in judo and stopped in his early 20ies to get into cycling and more specifically, long distance cycling. Sacha also got a Master Degree in Sport Science. He is able to plan a Training which includes nutrition advice and cross training. </p>
+
+            </div>
+
+        </div>
+
+        <div id="contact">
+            <h1>Contact us</h1>
+            <div class="contact">
+                <p>Have a project? We would love to hear about it!</p>
+                <div class="email">
+                    <img src="./ressources/email.png" alt=""><span>: sacha.mutel@gmail com</span>
+                </div>
+                <br>
+                <div class="social">
+                    <a href="https://www.instagram.com/sacha_mutel/" target="_blank"><img src="./ressources/instagram.webp" alt="instagram"></a>
+                    <a href="https://www.linkedin.com/in/sacha-mutel-176460188/" target="_blank"><img src="./ressources/linkedin.svg" alt="linkedin"></a>
+            
+                </div>
+            </div>
+            <div class="imagectt"></div>
+
+        </div>
+
+
+    </main>
+    <footer>
+        <p>@2021 by Sacha MUTEL, AMCC</p>
+    </footer>
+
+    <script>
+        window.addEventListener('scroll', function() {
+            let header = document.querySelector('header');
+            let windowPosition = window.scrollY > 0;
+            header.classList.toggle('scrolling-active', windowPosition);
+        })    
+    </script>
+
+
+</body>
+</html>
