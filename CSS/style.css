@@ -226,7 +226,7 @@ a.active:hover{
     justify-content: center;
     align-items: center;
     height: 660px;
-    background-image: url("../ressources/DSCF1389.jpg");
+    background-image: url("../ressources/DSCF1389.JPG");
     background-size: cover;
     background-repeat: no-repeat;
     margin: 0px -8px 0px -8px;
@@ -242,7 +242,7 @@ a.active:hover{
     text-shadow: 0 0 5px #FFF;
     }
 
-@media only screen and (max-width: 800px) {
+    @media only screen and (max-width: 800px) {
         .profil h1{
             font-size: 30px;
             padding: 20px;
@@ -252,7 +252,6 @@ a.active:hover{
         }
         
     }
-
 /*Plan*/
 
 #plans{
@@ -371,6 +370,7 @@ a.active:hover{
     background-repeat: no-repeat;
 }
 
+
 @media only screen and (max-width: 800px){
     #team {
         display: grid;
@@ -395,7 +395,7 @@ a.active:hover{
         grid-row:3/3;
         grid-column: 2/2;
     }
-    
+
     .pfelipe,
     .psacha {
         background-image: none;
