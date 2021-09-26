@@ -242,6 +242,17 @@ a.active:hover{
     text-shadow: 0 0 5px #FFF;
     }
 
+@media only screen and (max-width: 800px) {
+        .profil h1{
+            font-size: 30px;
+            padding: 20px;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+        
+    }
+
 /*Plan*/
 
 #plans{
