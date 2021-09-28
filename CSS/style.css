@@ -355,6 +355,13 @@ a.active:hover{
     margin: 100px -8px 0px -8px;
 }
 
+h5 {
+    font-style: italic;
+}
+
+li {
+    list-style-type: disc;
+}
 
 .felipe{
     grid-column: 1 / 1;
@@ -398,6 +405,7 @@ a.active:hover{
         grid-column: 2/2;
     }
 
+
     .felipe {
         grid-row: 2/2;
         grid-column: 2/2;
@@ -412,10 +420,10 @@ a.active:hover{
     .psacha {
         background-image: none;
     }
-    
+
     .psacha p {
-    visibility: hidden;
-}
+        display: none;
+    }
 }
 
 /* Contact */
