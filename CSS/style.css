@@ -226,7 +226,7 @@ a.active:hover{
     justify-content: center;
     align-items: center;
     height: 660px;
-    background-image: url("../ressources/DSCF1389.jpg");
+    background-image: url("../ressources/DSCF1389.JPG");
     background-size: cover;
     background-repeat: no-repeat;
     margin: 0px -8px 0px -8px;
@@ -258,8 +258,10 @@ a.active:hover{
     line-height: 1.7;
     font-size: 1.6rem;
     display: grid;
-    grid-template-rows: 1fr 0.02fr 1fr 0.02fr 1fr;
-    grid-template-columns: 1fr 0.02fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;    
+    row-gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
     padding: 75px 75px 0px 75px;
 }
 
@@ -269,7 +271,7 @@ a.active:hover{
 }
 
 .pamateur{
-    grid-column: 3/3;
+    grid-column: 2/2;
     grid-row: 1/1;
     background-image: url("../ressources/DSCF1419.JPG");
     background-size: cover;
@@ -279,13 +281,13 @@ a.active:hover{
 
 
 .racer{
-    grid-column: 3/3;
-    grid-row: 3/3;
+    grid-column:2/2;
+    grid-row: 2/2;
 }
 
 .pracer{
     grid-column: 1/1;
-    grid-row: 3/3;
+    grid-row: 2/2;
     background-image: url("../ressources/66791659_2501674003225740_7813166941652123648_n.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -293,12 +295,12 @@ a.active:hover{
 
 .professional{
     grid-column: 1 / 1;
-    grid-row: 5/5;
+    grid-row: 3/3;
 }
 
 .ppro{
-    grid-column: 3/3;
-    grid-row: 5/5;
+    grid-column: 2/2;
+    grid-row: 3/3;
     background-image: url("../ressources/20180929_134619_005.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -345,8 +347,10 @@ a.active:hover{
     line-height: 1.7;
     font-size: 1.6rem;
     display: grid;
-    grid-template-rows: 1fr 5fr 0.2fr 5fr;
+    grid-template-rows: 1fr 5fr 5fr;
+    row-gap: 20px;
     grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
     padding: 75px 75px 0px 75px;
     margin: 100px -8px 0px -8px;
 }
@@ -359,15 +363,23 @@ a.active:hover{
 
 .sacha{
     grid-column: 2 / 2;
-    grid-row: 4 / 4;
+    grid-row: 3/3;
 }
 
 .psacha{
     grid-column: 1/1;
-    grid-row: 4/4;
+    grid-row: 3/3;
     background-image: url("../ressources/RaR_Nils-Laengner-8433.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+.psacha p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 12px;
+    text-align: right;
+    Margin-top: -50px;  
+    color: #fff;
 }
 
 
