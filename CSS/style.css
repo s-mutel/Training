@@ -412,6 +412,10 @@ a.active:hover{
     .psacha {
         background-image: none;
     }
+    
+    .psacha p {
+    visibility: hidden;
+}
 }
 
 /* Contact */
