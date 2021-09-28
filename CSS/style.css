@@ -359,7 +359,7 @@ h5 {
     font-style: italic;
 }
 
-li {
+ol li {
     list-style-type: disc;
 }
 
